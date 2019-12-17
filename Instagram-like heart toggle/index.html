@@ -1,0 +1,33 @@
+<html>
+  <head>
+
+
+
+  </head>
+
+  <body>
+
+  <img id="heart" src="Assets/heartoff.png" onclick="toggleheart()" alt="heartoff">
+
+  <script>
+  var toggle = "Assets/heartoff.png";
+  function toggleheart()
+  {
+    if(toggle == "Assets/heartoff.png")
+    {
+        document.getElementById('heart').src = "Assets/hearton.png"
+        toggle = "Assets/hearton.png";
+    }
+    else if(toggle == "Assets/hearton.png")
+    {
+        document.getElementById('heart').src = "Assets/heartoff.png"
+        toggle = "Assets/heartoff.png";
+    }
+
+  }
+
+  </script>
+
+  </body>
+
+</html>
