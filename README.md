@@ -1,2 +1,2 @@
 # Instagram-like-heart-toggle
-Just a heart icon that toggles like the one one instagram onclick
+A web-page with a heart icon that toggles like the one on instagram by clicking it.
